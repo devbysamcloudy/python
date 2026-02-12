@@ -1,57 +1,58 @@
+from folder import get_useer_folder
+from file_sys import list_folder_files, move_files
 import os
 
-from fileFolder import listFolder
-from file_sys import move_files
-from folder import get_useer_folder
+#Android->Kotlin,Java,Js(react native)
+#Android 16
+#from android 8>above
+#use all caps to create a constant
+#some delete folder files. chmod→#
+#windows
+IMAGE = ["jpg", "jpeg", "png"]
+MUSIC = ["mp3", "wav"]
+PDF = ["pdf"]
+ZIP = ["tar", "zip", "rar"]
 
-IMAGES = [".jpg", ".jpeg", ".png"]
-MUSIC = [".mp3", ".wav"]
-PDF = [".pdf"]
-ZIP = [".tar", ".zip", ".rar"]
+#have settings prompted for each delete or not
 
 def main():
-    print("welcome to the app")
-    print("________________")
-
+    print("Welcome to folder organisation app")
+    print(" ")
     working_folder = get_useer_folder()
-    items = listFolder(working_folder)
+    items = list_folder_files(working_folder)
+    prompt_input = input("For each file prompt before move. y or n: ").lower()
+
+    if prompt_input == 'y':
+        prompt = True
+    else:
+        prompt = False
 
     for item in items:
-        print("single item is", item)
+        if os.path.isdir(os.path.join(working_folder, item)):
+            print(f"Skipping directory: {item}")
+            continue
 
         split_item = os.path.splitext(item)
-        print("split item is", split_item)
-        print("first element", split_item[0])
-        print("second element", split_item[1])
-
         extension = split_item[1].lower()
 
-        if extension in IMAGES:
-            print(f"for file {item} its an Image")
-            folder_name = "Images"
+        folder_name = "Other"
 
+        if extension in IMAGE:
+            folder_name = "Image"
         elif extension in MUSIC:
-            print(f"for file {item} its a music")
             folder_name = "Music"
-
         elif extension in PDF:
-            print(f"for file {item} its a PDF")
-            folder_name = "PDFs"
-
+            folder_name = "Pdf"
         elif extension in ZIP:
-            print(f"for file {item} its a Zip")
-            folder_name = "Zips"
-
+            folder_name = "Zip"
         else:
-            print(f"for file {item} its unknown")
-            folder_name = "Others"
-
-        print("The folder is", folder_name)
+            folder_name = "Other"
 
         move_files(
             filename=item,
             working_dir=working_folder,
-            folder_name=folder_name
+            folder_name=folder_name,
+            prompt=prompt
         )
 
 main()
