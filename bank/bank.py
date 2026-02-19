@@ -1,28 +1,51 @@
-#Handles all the required transactions and opening of accounts
 import json
-import os
-import sys
+import os, sys
+from decorators import log
+from accounts import create_account, get_account_by_id_no,update_account
+from datetime import datetime
 
-def create_account(id_number, name):
-    account = {
-        "account_no": id_number,
-        "id_number":id_number,
-        "name":name,
-        "Transaction_history": [],
-        "balance": 0
-    }
+from time import sleep
 
-    filename = f"accounts/{id_number}.json"
-    with open (filename, "w") as file:
-        json.dump(account,file)
-    print(f"Account created successfully")
+@log
 
-def get_account_by_id(id_number):
-    filename = f"accounts/{id_number}.json"
-    if not os.path.exists(filename):
+def new_account(trials = 0):
+    if trials >= 3:
+        print("Maximum trials reached")
         return None
+    print("Welcome to the bank")
+    print("Create account")
+    id_number = input("Enter ID number:")
+    account = get_account_by_id_no(id_number)
+    if account:
+        seconds = trials + 2
+        print(f"ID number already in use. Try again in {seconds} s")
+        sleep(seconds)
+        new_account(trials+1)
+        return
+    name= input("Enter name:")
+    password = input("Enter password:")
+    account = create_account(name=name,password=password, id_number=id_number)
 
-    with open (filename, "r") as file:
-        account = json.load(file)
-        print(account)
-    return account        
+    if account:
+        print(f"Welcome {account["name"]}. Account created")
+    return account
+
+@log
+def deposit(account):
+    transaction_history = account["transaction history"]
+    balance = account["balance"]
+    print(f"Accout balance is:{balance}")
+    amount = int(input("Deposit Ammount:"))
+
+    if amount < 0:
+        print("To deposit enter ammout greater than 0")
+        return None
+    new_balance = balance + amount
+    timestamp = datetime.now.strftime("%Y-%m-%d %H:%M:%S")
+    transaction_history.append({"transaction_type": "Deposit", "timestamp":timestamp, "amount":amount,"balance":balance,"new_balance":new_balance})
+    account['balance'] = new_balance
+    account_update = update_account(account=account)
+    return account_update
+account1 = get_account_by_id_no("23454")
+print(account1)
+#deposit(account)
