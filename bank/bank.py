@@ -32,7 +32,7 @@ def new_account(trials = 0):
 
 @log
 def deposit(account):
-    transaction_history = account["transaction history"]
+    transaction_history = account["Transaction_history"]
     balance = account["balance"]
     print(f"Accout balance is:{balance}")
     amount = int(input("Deposit Ammount:"))
@@ -41,11 +41,30 @@ def deposit(account):
         print("To deposit enter ammout greater than 0")
         return None
     new_balance = balance + amount
-    timestamp = datetime.now.strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     transaction_history.append({"transaction_type": "Deposit", "timestamp":timestamp, "amount":amount,"balance":balance,"new_balance":new_balance})
     account['balance'] = new_balance
     account_update = update_account(account=account)
     return account_update
-account1 = get_account_by_id_no("23454")
-print(account1)
-#deposit(account)
+account = get_account_by_id_no("23454")
+#print(account)
+deposit(account)
+
+def withdraw(account):
+    transaction_history = account["Transaction_history"]
+    balance = account["balance"]
+    print(f"Accout balance is:{balance}")
+    amount = int(input("Withdraw Amount:"))
+
+    if amount < 0:
+        print("To withdraw enter ammout greater than 0")
+        return None
+    new_balance = balance - amount
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    transaction_history.append({"transaction_type": "Deposit", "timestamp":timestamp, "amount":amount,"balance":balance,"new_balance":new_balance})
+    account['balance'] = new_balance
+    account_update = update_account(account=account)
+    return account_update
+account = get_account_by_id_no("23454")
+#print(account)
+withdraw(account)

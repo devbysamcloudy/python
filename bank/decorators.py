@@ -1,4 +1,3 @@
-
 import time
 from datetime import datetime
 
@@ -9,24 +8,24 @@ def log(func):
         result = func(*args, **kwargs)
         end_time = time.time()
         time_taken = end_time - start_time
+        
+        # Create the log message as a string (not inside a misplaced docstring)
         log_message = f"""
-        print("-" * 20)
-        print("LOG")
-        print("-" * 20)
-        print(f"Timestamp: {timestamp}")
-        print(f"Function: {func.__name__}")
-        print(f"Time Taken: {time_taken} seconds")
-        print(f"inputs: args = {args}, kwargs = {kwargs}")
-        print(f"Results = {result}")
-        print("-" * 20)
+{'-' * 20}
+LOG
+{'-' * 20}
+Timestamp: {timestamp}
+Function: {func.__name__}
+Time Taken: {time_taken:.4f} seconds
+Inputs: args = {args}, kwargs = {kwargs}
+Results = {result}
+{'-' * 20}
+
+"""
+        
+        # Write to log file
+        with open("log.txt", "a") as file:
+            file.write(log_message)
+            
         return result
     return wrapper
-"""
-
-        with open ("log.txt","a") as file:
-            file.write(log_message)
-
-    return wrapper
-
-
-    

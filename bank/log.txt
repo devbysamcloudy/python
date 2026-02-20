@@ -418,3 +418,472 @@
         print("-" * 20)
         return result
     return wrapper
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:04:46")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0023162364959716797 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+        return result
+    return wrapper
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:05:06")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0027856826782226562 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+        return result
+    return wrapper
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:08:07")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0021338462829589844 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+        return result
+    return wrapper
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:10:53")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.002516031265258789 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+    return wrapper
+        return result
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:11:13")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.00213623046875 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+    return wrapper
+        return result
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:11:44")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0015609264373779297 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+    return wrapper
+        return result
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:12:03")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0019173622131347656 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+    return wrapper
+        return result
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:12:44")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0019881725311279297 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+
+        return result
+    return wrapper
+        
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:13:30")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0019378662109375 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+
+        return result
+    return wrapper
+        
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:14:15")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.0027322769165039062 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+
+        return result
+    wrapper()
+        
+
+        print("-" * 20)
+        print("LOG")
+        print("-" * 20)
+        print(f"Timestamp: 2026-02-19 11:15:20")
+        print(f"Function: get_account_by_id_no")
+        print(f"Time Taken: 0.001990795135498047 seconds")
+        print(f"inputs: args = ('23454',), kwargs = {}")
+        print(f"Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}")
+        print("-" * 20)
+        print(result)
+    return wrapper
+        
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:18:32
+Function: get_account_by_id_no
+Time Taken: 0.0019 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:20:35
+Function: get_account_by_id_no
+Time Taken: 0.0021 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:23:17
+Function: get_account_by_id_no
+Time Taken: 0.0027 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:25:34
+Function: get_account_by_id_no
+Time Taken: 0.0019 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [], 'balance': 0, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:25:37
+Function: update_account
+Time Taken: 0.0042 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}], 'balance': 3000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:25:34
+Function: deposit
+Time Taken: 3.1447 seconds
+Inputs: args = ({'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}], 'balance': 3000, 'password': '20022'},), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:32:30
+Function: get_account_by_id_no
+Time Taken: 0.0037 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}], 'balance': 3000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:32:36
+Function: update_account
+Time Taken: 0.0027 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:32:30
+Function: deposit
+Time Taken: 6.4452 seconds
+Inputs: args = ({'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'},), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:32:36
+Function: get_account_by_id_no
+Time Taken: 0.0094 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:33:41
+Function: get_account_by_id_no
+Time Taken: 0.0036 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:33:47
+Function: update_account
+Time Taken: 0.0041 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}], 'balance': 10000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:33:41
+Function: deposit
+Time Taken: 6.8311 seconds
+Inputs: args = ({'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}], 'balance': 10000, 'password': '20022'},), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:33:47
+Function: get_account_by_id_no
+Time Taken: 0.0030 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}], 'balance': 10000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 11:33:55
+Function: update_account
+Time Taken: 0.0042 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:30:24
+Function: get_account_by_id_no
+Time Taken: 0.0045 seconds
+Inputs: args = ('12343',), kwargs = {}
+Results = {'account_no': '12343', 'id_number': '12343', 'name': 'Samm', 'Transaction_history': [], 'balance': 0, 'password': 'SAmmy@2024'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:30:14
+Function: login
+Time Taken: 9.3375 seconds
+Inputs: args = (), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:30:24
+Function: get_account_by_id_no
+Time Taken: 0.0077 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:31:23
+Function: update_account
+Time Taken: 0.0047 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:23', 'amount': 0, 'balance': 8000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:30:24
+Function: deposit
+Time Taken: 59.7036 seconds
+Inputs: args = ({'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:23', 'amount': 0, 'balance': 8000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'},), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:31:23
+Function: get_account_by_id_no
+Time Taken: 0.0035 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:23', 'amount': 0, 'balance': 8000, 'new_balance': 8000}], 'balance': 8000, 'password': '20022'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:31:31
+Function: update_account
+Time Taken: 0.0045 seconds
+Inputs: args = (), kwargs = {'account': {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:23', 'amount': 0, 'balance': 8000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:31', 'amount': 90000, 'balance': 8000, 'new_balance': -82000}], 'balance': -82000, 'password': '20022'}}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:31:51
+Function: get_account_by_id_no
+Time Taken: 0.0008 seconds
+Inputs: args = ('456789',), kwargs = {}
+Results = None
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:05
+Function: create_account
+Time Taken: 0.0055 seconds
+Inputs: args = (), kwargs = {'name': 'sunny', 'password': 'Sammy@2024', 'id_number': '456789'}
+Results = None
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:31:44
+Function: new_account
+Time Taken: 21.6411 seconds
+Inputs: args = (), kwargs = {}
+Results = None
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:18
+Function: get_account_by_id_no
+Time Taken: 0.0023 seconds
+Inputs: args = ('456789',), kwargs = {}
+Results = {'account_no': '456789', 'id_number': '456789', 'name': 'sunny', 'Transaction_history': [], 'balance': 0, 'password': 'Sammy@2024'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:11
+Function: login
+Time Taken: 7.0612 seconds
+Inputs: args = (), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:47
+Function: get_account_by_id_no
+Time Taken: 0.0021 seconds
+Inputs: args = ('456789',), kwargs = {}
+Results = {'account_no': '456789', 'id_number': '456789', 'name': 'sunny', 'Transaction_history': [], 'balance': 0, 'password': 'Sammy@2024'}
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:33
+Function: login
+Time Taken: 13.3266 seconds
+Inputs: args = (), kwargs = {}
+Results = True
+--------------------
+
+
+--------------------
+LOG
+--------------------
+Timestamp: 2026-02-19 16:32:47
+Function: get_account_by_id_no
+Time Taken: 0.0059 seconds
+Inputs: args = ('23454',), kwargs = {}
+Results = {'account_no': '23454', 'id_number': '23454', 'name': 'sam', 'Transaction_history': [{'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:25:37', 'amount': 3000, 'balance': 0, 'new_balance': 3000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:32:36', 'amount': 5000, 'balance': 3000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:47', 'amount': 2000, 'balance': 8000, 'new_balance': 10000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 11:33:55', 'amount': 2000, 'balance': 10000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:23', 'amount': 0, 'balance': 8000, 'new_balance': 8000}, {'transaction_type': 'Deposit', 'timestamp': '2026-02-19 16:31:31', 'amount': 90000, 'balance': 8000, 'new_balance': -82000}], 'balance': -82000, 'password': '20022'}
+--------------------
+
